@@ -95,37 +95,6 @@ javac -cp ".:lombok.jar" Main.java
 java -cp ".:lombok.jar" Main
 ```
 
-## Usage Examples
-
-### Basic Product Creation
-```java
-// Create different product types
-Cheese cheese = new Cheese("Gouda", 15.99, 50, LocalDate.now().plusDays(30), 0.25);
-TV tv = new TV("Samsung 55\"", 699.99, 5, 12.5);
-ScratchCard card = new ScratchCard("Lottery Ticket", 5.00, 100);
-```
-
-### Shopping Cart Operations
-```java
-Cart cart = new Cart();
-cart.add(cheese, 2);    // Add 2 units of cheese
-cart.add(tv, 1);        // Add 1 TV
-cart.printCart();       // Display cart contents
-```
-
-### Checkout Process
-```java
-Customer customer = new Customer(cart, 1000.0);
-EcommerceSystem system = new EcommerceSystem();
-
-try {
-    CheckoutResult result = system.checkout(customer, cart);
-    System.out.println("Order total: $" + result.getTotal());
-} catch (CheckoutException e) {
-    System.out.println("Checkout failed: " + e.getMessage());
-}
-```
-
 ## Key Features Explained
 
 ### Product Types
