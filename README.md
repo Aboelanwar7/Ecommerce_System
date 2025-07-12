@@ -95,6 +95,12 @@ javac -cp ".:lombok.jar" Main.java
 java -cp ".:lombok.jar" Main
 ```
 
+## Sample Test Case
+
+<img width="534" height="869" alt="Screenshot 2025-07-12 005836" src="https://github.com/user-attachments/assets/c9541b11-89ec-4358-a9a1-da3b8112b4cb" />
+<img width="638" height="498" alt="Screenshot 2025-07-12 005854" src="https://github.com/user-attachments/assets/079f3be2-7359-42ae-8032-c0d4779fb641" />
+
+
 ## Key Features Explained
 
 ### Product Types
